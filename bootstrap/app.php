@@ -23,8 +23,6 @@ $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
 
-class_alias(Laravel\Socialite\Facades\Socialite::class, 'Socialite');
-
 $app->withFacades();
 
 // $app->withEloquent();
