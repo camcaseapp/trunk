@@ -13,7 +13,7 @@ class SocialAuthController extends Controller
 
     public function index()
     {
-        //
+        return 10;
     }
 
     public function show($id)
